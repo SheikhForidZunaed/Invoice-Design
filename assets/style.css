@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0px auto;
+    width: 400px;
+    border: 1px solid #eee;
+    margin-top: 30px;
+    padding: 10px 15px 10px 15px;
+}
+.information{
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.bill-date{
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-list{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+th{
+    border-top: 2px dotted black;
+    line-height: 30px;
+    border-bottom: 2px dotted black;
+}
+
+.rate-list{
+    font-size: 12px;
+    text-align: right;
+    width: 50%;
+    margin-left: 50%;
+}
+
+.left-align{
+    text-align: left;
+}
+
+table{
+    border-collapse: collapse;
+}
+td{
+    font-size: 12px;  
+    padding: 5px;
+}
+td.item{
+    text-align: left;
+    width: 45%;
+}
+/* .sub-total{
+    height: 30px;
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted black;
+    margin-bottom: 20px;
+} */
+
+.total-sale{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    border-top: 2px dotted black;
+    line-height: 30px;
+    border-bottom: 2px dotted black;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.content-footer{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+}
